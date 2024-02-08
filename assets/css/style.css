@@ -1,0 +1,158 @@
+* {
+    /* Add adobe font
+    font-family: "retail-variable", sans-serif;
+    font-variation-settings: "ital" 0, "opsz" 6, "wght" 100;   */
+}
+
+/* Header */
+header {
+    background-color: rgb(47, 255, 61);
+}
+
+.navigation {
+    width: 90%;
+    margin: 0 auto;
+}
+
+#hamburger {
+    display: none;
+}
+
+h1 {
+    padding: 20px 0px 20px 0px;
+}
+
+header nav ul {
+    display: flex;
+    Flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header nav ul li {
+    padding: 20px;
+}
+
+/* Main */
+main {
+    background-color: black;
+    color: grey;
+}
+
+section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+/* About section */
+.about-container {
+    display: flex;
+    Flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#about img {
+    width: 100%;
+}
+
+.about-img {
+    width: 47.5%;
+    margin-right: 2.5%;
+}
+
+.about-p {
+    width: 47.5%;
+    margin-left: 2.5%;
+}
+
+p {
+    margin: 20px 0px 20px 0px;
+    size: 100em;
+    line-height: auto;
+}
+
+.testimonials-container {
+    display: flex;
+    Flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+#testimonials img {
+    width: 100%;
+}
+
+.testimonial-img {
+    width: 27.5%;
+    margin: 10px 2.5% 10px 0px;
+}
+
+.testimonial-p {
+    width: 67.5%;
+    margin-left: 2.5%;
+}
+
+#testimonials h3 {
+    font-size: 1.5em;
+    padding: 0px 0px 10px 0px;
+}
+
+@media screen and (max-width: 701px) {
+    header nav ul {
+        display: none;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 0 auto;
+    }
+
+    #heading {
+        width: 60%;
+    }
+
+    #hamburger {
+        display: block;
+        width: 30%;
+    }
+
+    #hamburger img {
+        width: 65px;
+        margin: 0 auto;
+    }
+
+    header:hover {
+        cursor: pointer;
+    }
+
+    header:hover ul {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .about-container {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .about-img,
+    .about-p {
+        width: 100%;
+    }
+}

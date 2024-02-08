@@ -5,49 +5,88 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Finn Lambouris</title>
     <link rel="Stylesheet" href="./assets/css/reset.css">
+    <!-- Add Adobe Font: <link rel="stylesheet" href="https://use.typekit.net/nih8hnc.css"> -->
     <link rel="Stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
-        <h1>Finn Lambouris</h1>
-        <nav>
-            <h2>Home</h2>
-            <h2>Work</h2>
-            <h2><a href="https://clarkstondj.myportfolio.com/">Clarkston DJ</a></h2>
-            <h2><a href="https://theretrozone.myportfolio.com/">The Retro Zone | Video Game Restoration</a></h2>
+    <header class="header">
+        <div class="navigation">
+            <section id="heading">
+                <h1>Finn Lambouris</h1>
+            </section>
+            <section id="hamburger">
+                <img src="./assets/content/Hamburger.png" alt="navigation icon">
+            </section>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li>About</li>
+                <li>Testimonials</li>
+                <li>Contact</li>
+                <!-- <li>Home</li>
+                <li>Work</li>
+                <li><a href="https://clarkstondj.myportfolio.com/">Clarkston DJ</a></li>
+                <li><a href="https://theretrozone.myportfolio.com/">The Retro Zone | Video Game Restoration</a></li> -->
+            </ul>
         </nav>
     </header>
 
-    <section>
-        <h2>About the Geek</h2>
-        <img src="./Assets/LinkedIn.jpg" alt="A headshot of Finn">
-        <p>Tech is not just my job; it's also my hobbies and passions. I am drawn to the digital world because I'm hardwired to figure out how and why things work, and troubleshoot issues that arise. An embarrassingly large amount of my time is spent on YouTube learning about topics such as video game history and electronics teardown & repair, as well as walkthroughs for different coding, video editing, and graphic design concepts. I love to get lost in the details and figure out how to create the exact vision I have.</p>
-        <p>I am also a Michigan State graduate who specialized in Media & Information and double minored in graphic design and film studies. Currently, I am enrolled in MSU's College of Engineering's Coding Bootcamp, where I am learning to create webpages from scratch, as well as squash bugs and resolve the issues they cause. I am also proud to be a member of Alpha Kappa Psi Professional Business Fraternity, which I attribute a majority of my soft skills to.</p>
-        <p>This website serves as my personal portfolio where I can house all of the work I'm proudest of. Visit the work page to view my experience in:</p>
-        <ul>
-            <li>Web design & development</li>
-            <li>Graphic design</li>
-            <li>Video production</li>
-            <li>Audio production</li>
-            <li>Social media management</li>
-            <li>Video game repair / restoration</li>
-        </ul>
-    </section>
+    <main>
+        <section id="about">
+            <h2>About the Geek</h2>
+            <div class="about-container">
+                <section class="about-img">
+                    <img src="./assets/content/LinkedIn.jpg" alt="A headshot of Finn">
+                </section>
+                <section class="about-p">
+                    <p>Tech is not just my job; it's also my hobbies and passions. I am drawn to the digital world because I'm hardwired to figure out how and why things work, and troubleshoot issues that arise. An embarrassingly large amount of my time is spent on YouTube learning about topics such as video game history and electronics teardown & repair, as well as walkthroughs for different coding, video editing, and graphic design concepts. I love to get lost in the details and figure out how to create the exact vision I have.</p>
+                    <p>I am also a Michigan State graduate who specialized in Media & Information and double minored in graphic design and film studies. Currently, I am enrolled in MSU's College of Engineering's Coding Bootcamp, where I am learning to create webpages from scratch, as well as squash bugs and resolve the issues they cause. I am also proud to be a member of Alpha Kappa Psi Professional Business Fraternity, which I attribute a majority of my soft skills to.</p>
+                    <p>This website serves as my personal portfolio where I can house all of the work I'm proudest of.</p>
+                </section>
+            </div>  
+            <!-- <p>Visit the work page to view my experience in:</p> -->
+            <!-- <ul>
+                <li>Web design & development</li>
+                <li>Graphic design</li>
+                <li>Video production</li>
+                <li>Audio production</li>
+                <li>Social media management</li>
+                <li>Video game repair / restoration</li>
+            </ul> -->
 
-    <section>
-        <h2>Testimonials</h2>
-        <img src="./Assets/Tom.png" alt="A headshot of Tom Shanahan">
-        <h3>Tom Shanahan</h3>
-        <p>"Finn's video editing work and graphic additions on TomShanahan.Report have been outstanding from the first project he completed for me through the latest. He has proven creative at improving upon the outline I present to him and innovative at solving any unanticipated problems that arise. With my limited technology skill, I'm able to trust his judgment when I'm not sure how to approach an idea."</p>
-        <img src="./Assets/Roz.png" alt="A headshot of Roz Keith">
-        <h3>Roz Keith</h3>
-        <p>“Finn was so easy to work with. He was independent and flexible and turned the projects and edits around quickly. Our team was thrilled with the outcomes and as a bonus we have many hours of footage to create additional content.”</p>
-    </section>
+        </section>
 
-    <section>
-        <h2>Contact</h2>
-        <!-- Add contact form when I learn how to -->
-    </section>
+        <section>
+            <h2>Web design & development</h2>
+            
+        </section>
+
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+                <div class="testimonials-container">
+                    <section class="testimonial-img">
+                        <img src="./assets/content/Tom.png" alt="A headshot of Tom Shanahan">
+                    </section>
+                    <section class="testimonial-p">
+                        <h3>Tom Shanahan</h3>
+                        <p>"Finn's video editing work and graphic additions on TomShanahan.Report have been outstanding from the first project he completed for me through the latest. He has proven creative at improving upon the outline I present to him and innovative at solving any unanticipated problems that arise. With my limited technology skill, I'm able to trust his judgment when I'm not sure how to approach an idea."</p>
+                    </section>
+
+                    <section class="testimonial-img">
+                        <img src="./assets/content/Roz.png" alt="A headshot of Roz Keith">
+                    </section>
+                    <section class="testimonial-p">
+                        <h3>Roz Keith</h3>
+                        <p>“Finn was so easy to work with. He was independent and flexible and turned the projects and edits around quickly. Our team was thrilled with the outcomes and as a bonus we have many hours of footage to create additional content.”</p>
+                    </section>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <!-- Add contact form when I learn how to -->
+        </section>
+    </main>
 </body>
 </html>

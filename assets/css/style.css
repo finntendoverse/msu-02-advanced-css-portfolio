@@ -73,8 +73,7 @@ h2 {
 
 p {
     margin: 20px 0px 20px 0px;
-    size: 100em;
-    line-height: auto;
+    font-size: 1em;
 }
 
 /* Web Design & Development Section */
@@ -146,6 +145,11 @@ footer {
 
 /* Media Quesries */
 @media screen and (max-width: 701px) {
+    .header {
+        display: flex;
+        align-items: center;
+    }
+    
     header nav ul {
         display: none;
     }

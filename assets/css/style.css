@@ -4,10 +4,11 @@ footer {
     background-color: rgb(47, 255, 61);
 }
 
-.navigation {
-    width: 90%;
-    margin: 0 auto;
-}
+/* .navigation {
+    Flex-grow: 1;
+    Flex-shrink: 1;
+    Flex-basis: auto;
+} */
 
 #hamburger {
     display: none;
@@ -19,7 +20,6 @@ h1 {
 
 header nav ul {
     display: flex;
-    Flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
 }
@@ -62,13 +62,16 @@ h2 {
 }
 
 .about-img {
-    width: 47.5%;
-    margin-right: 2.5%;
+    Flex-grow: 1;
+    Flex-shrink: 0;
+    Flex-basis: 40%;
 }
 
 .about-p {
-    width: 47.5%;
-    margin-left: 2.5%;
+    Flex-grow: 1;
+    Flex-shrink: 0;
+    Flex-basis: 40%;
+    padding: 20px;
 }
 
 p {
@@ -85,7 +88,7 @@ p {
 }
 
 .smaller {
-    width: 30%;
+    flex-basis: 33%;
 }
 
 .code-container img {
@@ -93,7 +96,7 @@ p {
 }
 
 #largest img {
-    width: 100%;
+    flex-basis: 100%;
 }
 
 /* Testimonials Section */
@@ -109,13 +112,13 @@ p {
 }
 
 .testimonial-img {
-    width: 27.5%;
-    margin: 10px 2.5% 10px 0px;
+    flex-basis: 30%;
+    margin: 10px 0px 10px 0px;
 }
 
 .testimonial-p {
-    width: 67.5%;
-    margin-left: 2.5%;
+    width: 70%;
+    padding: 0 0 0 20px;
 }
 
 #testimonials h3 {
@@ -162,17 +165,21 @@ footer {
     }
 
     #heading {
-        width: 60%;
+        Flex-grow: 1;
+        Flex-shrink: 0;
+        Flex-basis: 80%;
     }
 
     #hamburger {
         display: block;
-        width: 30%;
+        Flex-grow: 1;
+        Flex-shrink: 0;
+        flex-basis: 20%;
+        padding: 20px;
     }
 
     #hamburger img {
-        width: 65px;
-        margin: 0 auto;
+        width: 100%;
     }
 
     header:hover {

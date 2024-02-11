@@ -82,6 +82,27 @@ p {
     line-height: auto;
 }
 
+/* Web Design & Development Section */
+.code-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.smaller {
+    width: 30%;
+}
+
+.code-container img {
+    width: 100%;
+}
+
+#largest img {
+    width: 100%;
+}
+
+/* Testimonials Section */
 .testimonials-container {
     display: flex;
     Flex-wrap: wrap;
@@ -108,6 +129,7 @@ p {
     padding: 0px 0px 10px 0px;
 }
 
+/* Media Quesries */
 @media screen and (max-width: 701px) {
     header nav ul {
         display: none;
@@ -153,6 +175,14 @@ p {
 
     .about-img,
     .about-p {
+        width: 100%;
+    }
+
+    .code-container {
+        flex-direction: column;
+    }
+
+    .smaller {
         width: 100%;
     }
 }

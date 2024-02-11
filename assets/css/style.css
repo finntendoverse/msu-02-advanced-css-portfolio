@@ -5,7 +5,8 @@
 }
 
 /* Header */
-header {
+header,
+footer {
     background-color: rgb(47, 255, 61);
 }
 
@@ -128,6 +129,26 @@ p {
     font-size: 1.5em;
     padding: 0px 0px 10px 0px;
 }
+
+/* Contact Section */
+#contact-img {
+    width:20%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+/* .contact-form {
+    width: 100%;
+    margin-bottom: 20px;
+} */
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 50px;
+}
+
 
 /* Media Quesries */
 @media screen and (max-width: 701px) {
